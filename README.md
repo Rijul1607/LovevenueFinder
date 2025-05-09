@@ -1,15 +1,47 @@
+<<<<<<< HEAD
 # Welcome to Love Venue Finder
 
 
 
 Follow these steps:
+=======
+
+# Love Venue Finder
+
+A modern web application for discovering and booking wedding and event venues, built with React, TypeScript, and Supabase.
+
+## Features
+
+- Browse and search for venues with detailed filters
+- View venue details with photos, descriptions, and availability
+- Book venues with a streamlined booking process
+- User authentication with email verification
+- Wishlist functionality to save your favorite venues
+- Review system for venues with star ratings
+
+## Technologies Used
+
+- Vite
+- TypeScript
+- React
+- React Router
+- Supabase for backend and authentication
+- shadcn-ui component library
+- Tailwind CSS for styling
+- React Hook Form for form handling
+- Zod for schema validation
+
+## Getting Started
+
+Follow these steps to set up the project locally:
+>>>>>>> f2bed2338fafa1aa56378190aab5ac93944b9892
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd love-venue-finder
 
 # Step 3: Install the necessary dependencies.
 npm i
@@ -18,28 +50,35 @@ npm i
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Environment Variables
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Create a `.env` file in the root directory with the following variables:
 
-**Use GitHub Codespaces**
+```
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Deployment
 
-## What technologies are used for this project?
+The site can be built for production using:
 
-This project is built with .
+```sh
+npm run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contributing
 
+<<<<<<< HEAD
 
+=======
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+>>>>>>> f2bed2338fafa1aa56378190aab5ac93944b9892
